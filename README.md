@@ -10,7 +10,7 @@
 - 可自訂各科成績細項
 - 成績預測功能：輸入預期成績後會告知使用者後續的最低成績要求
 
-### 3.2.2 內容簡述
+### 內容簡述
 
 每到學期末，常需花費時間手動計算自己的 GPA，以確認是否達到預期標準，而 NTU COOL 的成績呈現方式與計算機制不夠直觀，因此萌生了自行開發 GPA 計算工具的想法。
 
@@ -25,4 +25,4 @@
 請確認已安裝 `g++` 或 `clang++` 編譯器（建議使用 C++11 以上標準）。
 
 ```sh
-g++ main.cc main_func.cc courses.cc items.cc gpa_letter_mapping.cc -o GPA_Calculator -std=c++11
+g++ main.cc main_func.cc courses.cc items.cc gpa_letter_mapping.cc -o ScoreManger -std=c++11
