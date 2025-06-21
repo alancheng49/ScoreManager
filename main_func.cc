@@ -95,7 +95,8 @@ void Courses_list::add_course(){
     int c;
     double g, s, e;
     cout << "Please input the name of the course: ";
-    cin >> n;
+    cin.ignore(1000, '\n');
+    getline(cin, n);
     cout << "Please input the number of credits of the course: ";
     cin >> c;
     cout << "Please input the GPA of the score (in letter score). Input -1 instead if not determined: ";
